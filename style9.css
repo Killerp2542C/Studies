@@ -1,0 +1,18 @@
+#p1
+{
+    text-align: left;
+    color: #838b8b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#p2
+{
+    text-align: right;
+    color: #838b8b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+table,th,td{
+    border-style: solid; 
+    width: 2px;
+    border-color: darkblue;
+}
+tr:nth-child(even){
+    background-color: red;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: green;
+    color: white;
+}
+/* .odd{
+    background-color: green;
+    color: white;
+    
+}
+.even{
+    background-color: red;
+    color: white;
+} */
+th{
+    color: white;
+    background: transparent;
+}
+/* .odd:hover{
+    background-color: aqua;
+}
+.even:hover{
+    background-color: aqua;
+} */
+tr:hover{
+    background-color: aqua;
+}
+body{
+    background-image: url('Taj Mahal Image.png');
+    background-size: cover;
+}

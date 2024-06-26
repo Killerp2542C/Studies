@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: aqua;">
+    <h1 style="color: red">Student Registration Form</h1>
+    <form>
+        <label for= "name" style="color: red;"><b>Enter Name:</b></label>
+        <input type="text" id = "name" placeholder="Enter your Name">
+        <br>
+        <label for= "number" style="color: red;"><b>Enter Mobile Number:</b></label>
+        <input type="number" id = "number" placeholder="Enter Mobile Number">
+        <br>
+        <label for= "email" style="color: red;"><b>Enter Email ID:</b></label>
+        <input type="email" id = "email" placeholder="Enter Email ID">
+        <br>
+        <label for= "date" style="color: red;"><b>Enter Date:</b></label>
+        <input type="date" id = "date">
+        <br>
+        <label style="color: red;"><b>Select Your Gender:</b></label>
+        <br>
+        <input type="radio" name = "gender" id = "male">
+        <label for= "male" style="color: red;"><b>Male</b></label>
+        <input type="radio" name = "gender" id = "female">
+        <label for= "female" style="color: red;"><b>Female</b></label>
+        <br>
+        <label for="blood" style="color: red;"><b>Select Your Blood Group:</b></label>
+        <select name="Blood Group" id="blood">
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option selected>AB+</option>
+            <option>O-</option>
+        </select>
+        <br>
+        <label for="fruit" style="color: red;"><b>Select Your Fruits Name:</b></label>
+        <select name="fruit" id="fruit">
+            <option>Mango</option>
+            <option>Apple</option>
+            <option>WaeterMelon</option>
+            <option>Grapes</option>
+        </select>
+        <br>
+        <label for="comment" style="color: red;"><b>Enter Your Feedback:</b></label>
+        <br>
+        <textarea name="feedback" id="comment" cols="50" rows="10" placeholder="Enter Your Comment."></textarea>
+        <br>
+        <input type="checkbox" name = "terms">
+        <label for="terms" style="color: red;"><b>I agree the given Terms and Conditions</b></label>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
