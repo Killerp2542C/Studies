@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practical-4</title>
+    <style>
+        /* Table styles */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 2px solid blue;
+        }
+        th,td {
+            text-align: center;
+            border: 2px solid blue;
+            padding: 10px
+        }
+        th {
+            background-color: darkgray;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #ddd;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        tr:hover {
+            background-color: #f5f5dc;
+        }
+        /* Ordered list styles */
+        ol li {
+            list-style-type: lower-roman;
+            
+        }
+        ol.class {
+            list-style-image: url("arrow.png");
+        }
+        ol.class li:nth-child(even) {
+            color: red;
+        }
+        ol.class li:nth-child(odd) {
+            color: blue;
+        }
+        li {
+            font-size: large;
+            max-width: 20%;
+            max-height: 20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="3">Employees</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Mobile no</td>
+            <td>City</td>
+        </tr>
+        <tr>
+            <td>Rohan</td>
+            <td>9862745353</td>
+            <td>Vadodara</td>
+        </tr>
+        <tr>
+            <td>Pratham</td>
+            <td>9456375322</td>
+            <td>Gandhinagar</td>
+        </tr>
+
+    </table>
+    <br>
+    <br>
+    <br>
+    <h1 align="center">Fruits</h1>
+    <ol class="class">
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Pineapple</li>
+        <li>Grape</li>
+        <li>Blue berries</li>
+        <li>Water melon</li>
+        <li>Mango</li>
+    </ol>
+</body>
+</html>
